@@ -1,0 +1,15 @@
+{
+    "number": 1.0,
+    "string": "string",
+    "bool": true,
+    "null": null,
+    "object": {
+        "key": "value",
+        "key2": 1,
+        "key3": {
+            "sub-key": "sub-value",
+            "sub-key2": 1
+        }
+    },
+    "array": ["item1", "item2", {"key": "value"}]
+}
