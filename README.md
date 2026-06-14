@@ -14,11 +14,13 @@ This implements a recursive descent parser from scratch. A handwritten tokenizer
 
 Features in this version:
 
-File input (parse_from_file)
-Pretty-printing with indentation (print_json)
-Key lookup on objects (find_value)
-Escape sequence handling in strings
-Case-insensitive literal parsing (true/false/null, e.g. TRUE / NULL / FALSE)
+-File input (parse_from_file)
+-Pretty-printing with indentation (print_json)
+-Key lookup on objects (find_value)
+-Escape sequence handling in strings
+-Case-insensitive literal parsing (true/false/null, e.g. TRUE / NULL / FALSE)
+
+
 Future work:
 
 Streaming / in-memory string input (beyond file-only)
